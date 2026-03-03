@@ -3,6 +3,7 @@
 <p align="center">
   <img src=".github/misc/logo.png">
 </p>
+
 # 🎣 Zhat - Advanced Phishing Framework
 
 <div align="center">
@@ -17,41 +18,40 @@
 
 ---
 
-## 📋 Sobre o Zhat
+## 📋 About Zhat
 
-**Zhat** é uma ferramenta automatizada de phishing com **35+ templates** prontos, desenvolvida para **fins educacionais e testes de segurança autorizados**. Baseada no popular Zphisher, esta versão traz melhorias visuais e novos templates.
+**Zhat** is an automated phishing tool with **35+ ready-to-use templates**, developed for **educational purposes and authorized security testing**. Based on the popular Zphisher, this version brings visual improvements and new templates.
 
-> **⚠️ AVISO LEGAL**: Esta ferramenta é **EXCLUSIVAMENTE** para fins educacionais e testes de penetração em ambientes controlados com autorização explícita. O uso indevido para obter acesso não autorizado a contas de terceiros é **CRIME** previsto na legislação brasileira (Lei 12.737/2012) e internacional.
-
----
-
-## ✨ Funcionalidades
-
-| Recurso | Descrição |
-|---------|-----------|
-| 🎯 **35+ Templates** | Facebook, Instagram, Google, **Riot Games**, Netflix, Steam e mais |
-| 🌐 **Tunelamento** | Localhost, Cloudflared e LocalXpose |
-| 🔗 **Mask URL** | Ofuscação de links (ex: `https://blue-verified-badge@random.trycloudflare.com`) |
-| 📍 **Captura de IP** | Monitora e salva IPs da vítima |
-| 🔑 **Captura de credenciais** | Salva usuário/senha em `auth/usernames.dat` |
-| 📱 **User-Agent logging** | Identifica dispositivo/navegador da vítima |
-| 🐳 **Docker support** | Container pronto para uso |
-| 📦 **Instalador .deb** | Cria pacote Debian para instalação |
-| 🔄 **Auto-update** | Verifica atualizações automaticamente |
+> **⚠️ LEGAL NOTICE**: This tool is **EXCLUSIVELY** for educational purposes and penetration testing in controlled environments with explicit authorization. Misuse to gain unauthorized access to third-party accounts is a **CRIME** under Brazilian legislation (Law 12.737/2012) and international laws.
 
 ---
 
-## 📦 Instalação
+## ✨ Features
 
-### Método 1: Clonagem Direta (Recomendado)
+| Feature | Description |
+|---------|-------------|
+| 🎯 **35+ Templates** | Facebook, Instagram, Google, **Riot Games**, Netflix, Steam and more |
+| 🌐 **Tunneling** | Localhost, Cloudflared and LocalXpose |
+| 🔗 **Mask URL** | Link obfuscation (e.g., `https://blue-verified-badge@random.trycloudflare.com`) |
+| 📍 **IP Capture** | Monitors and saves victim's IP |
+| 🔑 **Credential Capture** | Saves username/password in `auth/usernames.dat` |
+| 📱 **User-Agent logging** | Identifies victim's device/browser |
+| 🐳 **Docker support** | Ready-to-use container |
+| 📦 **.deb Installer** | Creates Debian package for installation |
+| 🔄 **Auto-update** | Automatically checks for updates |
+
+---
+
+## 📦 Installation
+
+### Method 1: Direct Clone (Recommended)
 ```bash
-# Clone o repositório
+# Clone the repository
 git clone --depth=1 https://github.com/Unknown-Red/zhat.git
 
-# Entre na pasta
+# Enter the folder
 cd zhat
 
-# Dê permissão e execute
+# Give permissions and execute
 chmod +x zhat.sh
 ./zhat.sh
-
