@@ -1,151 +1,60 @@
-<!-- Zphisher -->
+<!-- Zhat -->
 
 <p align="center">
   <img src=".github/misc/logo.png">
 </p>
+# 🎣 Zhat - Advanced Phishing Framework
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-2.3.5-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/htr-tech/zphisher?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/htr-tech/zphisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/htr-tech/zphisher?color=teal&style=for-the-badge">
-</p>
+<div align="center">
+  
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-GPLv3-red.svg)
+![Kali](https://img.shields.io/badge/Kali-Linux-black.svg)
+![Docker](https://img.shields.io/badge/docker-supported-blue.svg)
+![Author](https://img.shields.io/badge/author-Unknown--Red-purple.svg)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Author-htr--tech-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Bash-darkcyan?style=flat-square">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhtr-tech%2Fzphisher&title=Visitors&edge_flat=false"/></a>
-</p>
+</div>
 
-<p align="center"><b>A beginners friendly, Automated phishing tool with 30+ templates.</b></p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Unknown-Red/zhat/main/.github/banner.png" alt="Zhat Banner" width="600">
+</div>
 
-##
+---
 
-<h3><p align="center">Disclaimer</p></h3>
+## 📋 Sobre o Zhat
 
-<i>Any actions and or activities related to <b>Zphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+**Zhat** é uma ferramenta automatizada de phishing com **35+ templates** prontos, desenvolvida para **fins educacionais e testes de segurança autorizados**. Baseada no popular Zphisher, esta versão traz melhorias visuais e novos templates.
 
-<b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
+> **⚠️ AVISO LEGAL**: Esta ferramenta é **EXCLUSIVAMENTE** para fins educacionais e testes de penetração em ambientes controlados com autorização explícita. O uso indevido para obter acesso não autorizado a contas de terceiros é **CRIME** previsto na legislação brasileira (Lei 12.737/2012) e internacional.
 
-<b>This Tool is made for educational purposes only</b>. Do not attempt to violate the law with anything contained here. <b>If this is your intention, then Get the hell out of here</b>!
+---
 
-It only demonstrates "how phishing works". <b>You shall not misuse the information to gain unauthorized access to someones social media</b>. However you may try out this at your own risk.</i>
+## ✨ Funcionalidades
 
-##
+| Recurso | Descrição |
+|---------|-----------|
+| 🎯 **35+ Templates** | Facebook, Instagram, Google, **Riot Games**, Netflix, Steam e mais |
+| 🌐 **Tunelamento** | Localhost, Cloudflared e LocalXpose |
+| 🔗 **Mask URL** | Ofuscação de links (ex: `https://blue-verified-badge@random.trycloudflare.com`) |
+| 📍 **Captura de IP** | Monitora e salva IPs da vítima |
+| 🔑 **Captura de credenciais** | Salva usuário/senha em `auth/usernames.dat` |
+| 📱 **User-Agent logging** | Identifica dispositivo/navegador da vítima |
+| 🐳 **Docker support** | Container pronto para uso |
+| 📦 **Instalador .deb** | Cria pacote Debian para instalação |
+| 🔄 **Auto-update** | Verifica atualizações automaticamente |
 
-### Features
+---
 
-- Latest and updated login pages.
-- Beginners friendly
-- Multiple tunneling options
-  - Localhost
-  - Cloudflared
-  - LocalXpose
-- Mask URL support 
-- Docker support
+## 📦 Instalação
 
-##
+### Método 1: Clonagem Direta (Recomendado)
+```bash
+# Clone o repositório
+git clone --depth=1 https://github.com/Unknown-Red/zhat.git
 
-### Installation
+# Entre na pasta
+cd zhat
 
-- Just, Clone this repository -
-  ```
-  git clone --depth=1 https://github.com/htr-tech/zphisher.git
-  ```
-
-- Now go to cloned directory and run `zphisher.sh` -
-  ```
-  $ cd zphisher
-  $ bash zphisher.sh
-  ```
-
-- On first launch, It'll install the dependencies and that's it. ***Zphisher*** is installed.
-
-##
-
-### Installation (Termux)
-You can easily install zphisher in Termux by using tur-repo
-```
-$ pkg install tur-repo
-$ pkg install zphisher
-$ zphisher
-```
-### A Note : 
-***Termux discourages hacking*** .. So never discuss anything related to *zphisher* in any of the termux discussion groups. For more check : [wiki](https://wiki.termux.com/wiki/Hacking)
-
-##
-
-<p align="left">
-  <a href="https://shell.cloud.google.com/cloudshell/open?cloudshell_git_repo=https://github.com/htr-tech/zphisher.git&tutorial=README.md" target="_blank"><img src="https://gstatic.com/cloudssh/images/open-btn.svg"></a>
-</p>
-
-##
-
-### Installation via ".deb" file
-
-- Download `.deb` files from the [**Latest Release**](https://github.com/htr-tech/zphisher/releases/latest)
-- If you are using ***termux*** then download the `*_termux.deb`
-
-- Install the `.deb` file by executing
-  ```
-  apt install <your path to deb file>
-  ```
-  Or
-  ```
-  $ dpkg -i <your path to deb file>
-  $ apt install -f
-  ```
-
-##
-
-### Run on Docker
-
-- Docker Image Mirror:
-  - **DockerHub** : 
-    ```
-    docker pull htrtech/zphisher
-    ```
-  - **GHCR** : 
-    ```
-    docker pull ghcr.io/htr-tech/zphisher:latest
-    ```
-
-- By using the wrapper script [**run-docker.sh**](https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh)
-
-  ```
-  $ curl -LO https://raw.githubusercontent.com/htr-tech/zphisher/master/run-docker.sh
-  $ bash run-docker.sh
-  ```
-- Temporary Container
-
-  ```
-  docker run --rm -ti htrtech/zphisher
-  ```
-  - Remember to mount the `auth` directory.
-
-##
-
-<details>
-  <summary><h3>Dependencies</h3></summary>
-
-<b>Zphisher</b> requires following programs to run properly - 
-- `git`
-- `curl`
-- `php`
-
-> All the dependencies will be installed automatically when you run **Zphisher** for the first time.
-</details>
-
-<details>
-  <summary><h3>Tested on</h3></summary>
-
-- **Ubuntu**
-- **Debian**
-- **Arch**
-- **Manjaro**
-- **Fedora**
-- **Termux**
-</details>
+# Dê permissão e execute
+chmod +x zhat.sh
+./zhat.sh
