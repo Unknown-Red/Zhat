@@ -15,10 +15,6 @@
 
 </div>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Unknown-Red/zhat/main/.github/banner.png" alt="Zhat Banner" width="600">
-</div>
-
 ---
 
 ## 📋 Sobre o Zhat
@@ -58,3 +54,4 @@ cd zhat
 # Dê permissão e execute
 chmod +x zhat.sh
 ./zhat.sh
+
